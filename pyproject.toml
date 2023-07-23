@@ -8,6 +8,7 @@ packages = [{include = "sayatis_intro"}]
 [tool.poetry.dependencies]
 python = "^3.8"
 django = "^4.2.2"
+django-pwa = "^1.1.0"
 
 
 [build-system]

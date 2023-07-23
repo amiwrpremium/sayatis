@@ -2,6 +2,8 @@
 <!DOCTYPE html>
 <html lang="en">
 
+{% load pwa %}
+
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -29,6 +31,8 @@
 
     <!-- Template Main CSS File -->
     <link rel="stylesheet" href="{% static 'css/style.css' %}"/>
+
+    {% progressive_web_app_meta %}
 
 
 </head>
