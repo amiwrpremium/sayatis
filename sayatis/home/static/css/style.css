@@ -1218,3 +1218,7 @@ section {
 .plusSign::before{
   content: "+";
 }
+
+.plusSignAfter::after{
+  content: "+";
+}
