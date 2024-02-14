@@ -22,9 +22,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'b)*o)6et*gtxj(mkou7k&9#_7=)=!!5nas%jwv41s_#*tfy2h3'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ["sayatis.com"]
+ALLOWED_HOSTS = ["*"]
 
 # Application definition
 
